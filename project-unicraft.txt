@@ -1,0 +1,36 @@
+Auf dem Weg zur Arbeit kam mir heute folgende Idee. Ein Minecraftklon. Nicht,
+dass es da doch mehrere (kommerzielle, offene, unvollendete, gute, schlechte,
+strange...) gebe, aber mir kamen da ein paar nette Ideen.
+
+Zu allererst sieht man and Terrania oder Minecraft: Die Spiele sind zeitlos.
+Selbst mit übelster "Retrografik" kann man auf einmal Leute vom Hocker reißen.
+Das bedeutet, dass auch eine lange, schleppende Entwicklung sich lohnt und die
+(meiner Meinung nach eh sekundäre) Grafik nicht schon morgen veraltet ist.
+
+Das Spiel soll in 2D gehalten werden (ähnlich Terrania). Ich denke jedoch über
+ein _wirklich_ "unendliches" Spiel nach. Jede Welt ist ein Planet. Bei naher
+Zoomstufe sieht man davon nichts. Es wirkt wie eine normale, rechtwinklinge
+Welt, aber wenn man rauszoomt, erkennt man, dass jede Welt eine Kugel ist. Ein
+Problem ist hier natürlich, dass es je näher man dem Kern kommt, "enger" werden
+muss. Entweder löse ich das über einen großen, heißen, unbegehbaren Kern
+(einfachste Methode), der aber z.B. für Energiegewinnung oder "unendliche"
+Abschöpfung von Eisen genutzt werden kann, oder ich verabschiede mich vom
+Ansatz einer streng quadratischen Welt und nutze z.B. Kreise, die bei Berührung
+Zwischenräume mit einer Art Mischmaterial füllen. Krafisch wäre das sicherlich
+auch höchst interessant.
+
+Ein Tilebasierter Ansatz jedoch macht die Sache wesentlich einfacher. Dieses
+"kleine" Detail muss also noch überdacht werden.
+
+Die Steuerung sollte ohne Maus auskommen. Im Gegensatz zu anderen Spielen kann
+man also nicht sehr weit "durch Wände hindurch" abbauen. Ich denke an zwei
+"Tiefen". Direkt vor einem und einen Stein weiter. So kann man Wasser, Lava oder
+weiß der Geier abbauen, ohne sich gleich hineinbegeben zu müssen.
+
+Die Physik sollte lustiger werden. Dabei will ich wenig neues erfinden. Aber es
+sollte möglich sein Vehikel und Raketen zu "craften". Denn einige Materialien
+gibt es nur auf fernen Asteroiden (nicht vergessen einen Tiefraumradar zu
+craften! ^^) oder man findet einen komplett neuen Planeten, den man neu plündern
+kann. Netzwerkfähigkeit ist hier natürlich Grundvorraussetzung. Man könnte auch
+kleine Kriege führen müssen gegen autark lebende Aliens, die den eigenen
+Planeten mit Dynamit bewerfen... Es gibt eine Menge Potenzial. :)
