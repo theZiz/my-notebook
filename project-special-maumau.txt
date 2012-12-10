@@ -1,0 +1,146 @@
+Project "Special Mau Mau"
+Allgemeines:
+- neuer Name
+
+Grafik:
+- duales System
+	- klassische 116 Spiel Karten
+	- Erklärungen mit Piktogram
+- Zoom und Anordnung in "Handform" mit sparrow3D
+
+Target:
+- Open Handhelds
+- PC
+	-> Maus/Touchscreen support
+	-> reine Hardwareeingabe-support
+
+Netzwerk:
+- externe Anwendung (python?) kann als Masterserver Spieleserver
+  registrieren, entfernen (alle 60 sekunden anpingen!), und bei Bedarf
+  aktuelle Liste zuschicken
+- in Hauptspiel 4 Unteranwendungen
+	- Lobby
+		- Hauptthread
+		- Sucht Server per Masterserver (internet) oder Broadcast (LAN)
+		- Erstellt Server (für LAN, Eintrag in Masterserver oder lokal)
+		- Startet Benutzer-Client und beliebig viele KI-Clients
+		- Hat stets volle Kontrolle und kann alle Threads beenden
+	- Server
+		- Spiellogik
+		- weiß alles, schickt aber nur, was Client wissen darf
+	- Benutzer-Client
+		- Darstellung der Daten vom Server
+		- Interaktion u.U. mit Countdown
+	- KI-Client
+		- wie Benutzer-Client aber still
+- Dedicated server möglich, aber fraglich, ob mit SDL_net sinnvoll.
+
+Echtzeit mit Countdown:
+- Bei Reaktionen kann abgewunken werden, ansonsten 3-10 Sekunden Zeit (option)
+
+Optionen:
+- KI Stufe
+- Themes
+
+Einstiegsmöglichkeiten:
+- Einstieg (Karten Ass-9)
+- Fortschritt (Karten Ass-König)
+- Komplett (alle (mit Joker)
+
+Spielimplementierungsliste:
+- Farbe auf Farbe
+- Zahl auf Zahl
+- Zahl auf vorrangegangener Zahl
+- Selbe Karte auf selbe Karte stinkt
+- Bei gleicher Farbe folgend eine Ziehen für einen
+- Keine Unterbrechung einer Zieh-Kette!
+- Ass
+	- eine Aussetzen
+- Zwei
+	- zwei Aussetzen
+	- Zwei-Spielerspiel: Gegner setzt 2 Runden aus
+- Drei
+	- Kartentausch
+	- Countermöglichkeit
+	- Counterberechenbarkeit
+- Vier
+	- Farbtausch
+- Fünf
+	- Ziffertausch ohne Wirkung
+- Sechs
+	- Karten ansehen
+	- Countermöglichkeit
+	- Counterberechenbarkeit
+- Sieben
+	- Zwei Ziehen
+- Acht
+	- Eine Ziehen
+- Neun
+	- Löschen
+- Zehn
+	- Kreuz
+		- 10 Ziehen
+		- Countermöglichkeit
+		- Counterberechenbarkeit		
+	- Pik
+		- Countert Kreuz 10
+	- Herz
+		- Counter Karo 10
+	- Karo
+		- beliebige Karte legen
+		- Countermöglichkeit
+		- Counterberechenbarkeit		
+- Bube
+	- Bube Bube stinkt
+	- Farbwunsch
+	- Kreuz
+		- Zahl wunsch
+		- Hintergrundfarbenwunsch
+- Damen
+	- Kreuz
+		- 3 ziehen beliebig verteilen
+		- Countermöglichkeit
+		- Counterberechenbarkeit				
+	- Pik
+		- Counter Kreuz Dame
+	- Herz
+		- Counter Karo Dame
+	- Karo
+		- Spielrichtung ändern
+		- Countermöglichkeit
+		- Counterberechenbarkeit
+- König
+	- Kreuz
+		- so viel ziehen, wie Serverdatum ist
+		- Countermöglichkeit
+		- Counterberechenbarkeit (anders!)
+	- Pik
+		- countert Kreuz König
+	- Herz
+		- counter Karo König
+	- Karo König
+		- 3 Aussetzen
+		- Zweispielerspiel: 3 Karten legen
+		- Countermöglichkeit
+		- Counterberechenbarkeit
+- Joker
+	- kann jede Karte werden
+	- Overlords:
+		- jeder Overlord mit einem extrajoker spontan spielbar
+		- Ein Joker
+			- Zieh-mal-vier Overlord: Jemanden 4 Karten ziehen lassen
+			- Paar Overlord: alle echten Paare abwerfen
+			- Multi Overlord: alle Karten eines Wertes abwerfen
+			- Straßen Overlord: Echte Straßen, auch über König hinaus
+			- Counter-Overlord: Countert und negiert alle Counter
+			- Alle-Spielen-Mit-Offenen-Karten-Bis-Ich-Wieder-Dran-Bin-Overlord
+			- Eine-Karte-Auf-Den-Stapel-Legen-Overlord
+		- Zwei Joker
+			- Resurrection-Overlord
+			- Joker-Sieg countern -> Spieler verliert
+			- Overlord-Counter. Immer spontan, countert Overlords.
+		- Drei Joker
+		- Vier Joker
+			- Joker-Sieg -> man gewinnt
+		- Fünf Joker
+			- Looser-Overlord: Einen Spieler verlieren lassen
