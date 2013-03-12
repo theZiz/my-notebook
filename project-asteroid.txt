@@ -1,0 +1,18 @@
+ToDo:
+- in sich geschlossenes Weltall, mit Raumschiff als Bezugssystem (unabhäng von dessen Rotation!)
+	- alle Objekte werden verschoben um den Negativvektor meiner Bewegung + deren Bewegung
+	- Wenn ein Objekt die Weltallkugel verlässt, wird es an die entgegengesetzte Ecke verschoben
+
+- Universumskonstanten:
+	- Größe der Weltallkugel
+	- Größe der Physikkugel
+	- Größe der Sichtkugel
+	- Maximalgeschwindigkeit
+		- über lineare und theoretisch unendliche Bewegungsenergie, wie im richtigen Leben?
+	- Globale Bremswirkung (wenn überhaupt)
+
+- Kollisionenabfrage nur in Physikkugel
+	- alle Objekte bestehen aus einer Ansammlungen von Kugeln + einer umhüllenden Kugel für ersten Grobtest
+		- Kugelkollisionsbaum?
+	- Physik kann lustig sein, Hauptsache stabil.
+	- kein Drehmoment
