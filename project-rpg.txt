@@ -1,0 +1,7 @@
+- 2D Physik von oben
+- Im "Cyberspace" für einfachere Grafik?
+- Gleichzeitig nutzen als Ausrede für keine Spieler-Spieler-Kollision
+- Server und Client rechnen gleichzeitig:
+	- Randomseed wird am Anfang bekannt gegeben, danach ist die KI deterministisch
+	- KI-Bewegung ist unabhängig von Interkation der Clients
+	- Schaden kann rückwirkend Beachtung finden und auch in der "Vergangenheit" töten
