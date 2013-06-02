@@ -1,0 +1,18 @@
+- siehe auch die Ideen aus project-rpg.txt!
+- 2D Jump and Run mit RPG Elementen
+- Sprüche, Spruchbäume usw wie in Diablo
+	- vielleicht sogar ein komplexed Castsystem mit Selbstzimmern von Sprüchen
+- Echtzeitkämpfe, aber keine Physik zwischen Gegner und einem selbst
+- starre Umgebung + Schalter + bewegende Objekte (auf Bahnen?)
+- Tiled?
+- 2D Bewegung, aber Portale (Tunnel, Brücken, Zwergeisenbahnen...) führen weiter nach vorne / hinten
+	- Parallaxenebenen sind weiterführende Level
+- nach Kriterien automatisch erschaffene Gelände
+- verschiedenene Klassen und Rassen, aber wahrscheinlich kombiniert
+	- Elfe = Waldläufer
+	- Mensch = Krieger oder Elemente-Magier
+	- Zwerg = Technican
+	- Engel = Naturkraft-Magier
+	- Dämon = Nekromant-Magier
+	- Harpyie = Flug-"Krieger"
+- Reittiere
