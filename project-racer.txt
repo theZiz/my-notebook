@@ -1,0 +1,9 @@
+- von oben
+- zoom in and out je nach Entfernung der Autos
+- Strecken sind zwei große Bilder: Eines gibt die Strecke an, eines die Physik
+- Physik je nach Farbe:
+	- Strecke
+	- Wasser (befahrbar, langsamer)
+	- Wasser (unbefahrbar)
+	- Gras, Sand (langsamer)
+- Items
