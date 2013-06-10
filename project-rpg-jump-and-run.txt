@@ -1,3 +1,17 @@
+ToDo für den Anfang:
+- Ideen ausarbeiten für Skeletonformat
+	- 2D und 3D zu nutzen
+	- Unabhängige Bewegungsmuster!
+		- Oberkörper z.B. Angriffsbewegung
+		- Unterkörper läuft, springt, steht
+- Niederschreiben in fiktives Format
+- Fiktives Format laden
+- Nun nicht mehr fiktives Format anzeigen
+- Format speichern
+- Format anpassen
+- From the Scratch Editor / Reload (Elemente per Code, aber z.B. Radius der Bewegung ingame)
+- In sparrow3d gießen: sparrowSkeleton
+
 - siehe auch die Ideen aus project-rpg.txt!
 - 2D Jump and Run mit RPG Elementen
 - Sprüche, Spruchbäume usw wie in Diablo
