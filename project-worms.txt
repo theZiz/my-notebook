@@ -1,0 +1,42 @@
+* Worms on "planets" in rotateable 2D
+* maybe more than one planet per map
+* The basic map is a 2D pixel map, however rotated most of the times
+* Every pixel "dirt" has a fix position and gravity. The gravitation at every
+	point in the system is calculated as sum of all forces
+	* Force lookup map for every pixel in the system
+	* When a couple of pixels is removed / added the forces are subtracted from
+		the lookup map
+	* Pro:
+		* Really fast gravitation calculation based on the position
+		* Fast visualization of the gravitation field
+	* Contra:
+		* Big memory use. E.g: a 1000x1000 Pixel map needs ~ 2 MB Pixel space and
+			8 MB (2*4Byte for the two directions in 2D) gravitation lookup.
+* ALL levels are created automaticly based on (rotated) shapes like ellipses,
+	rectangles and triangles.
+* Some pixels have more/fewer mass than others.
+* Destroyed pixels fly away => gravity decreased over time
+* Jumping and Co depends on the gravity
+* Simple skeletons (like XKCD) for player pixel"art"
+	* maybe drawing just outlines
+* zoom via mame2x
+* Weapons
+	* Bazooka
+	* Grenade
+	* Split Grenade
+	* Space shuttle (like aero plane), the map rotates!
+	* Digger / heat burner
+	* Baseball bat
+	* super peanut (flying)
+	* Pistol
+	* Rope
+	* Fart bomb
+	* Teleport
+	* Mine
+	* Building stuff
+	* Dynamite
+* Environment:
+	* Wind
+	* Gravity (s.a.)
+	* Minen
+	
