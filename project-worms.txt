@@ -39,4 +39,3 @@
 	* Wind
 	* Gravity (s.a.)
 	* Minen
-	

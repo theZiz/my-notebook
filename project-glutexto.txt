@@ -1,0 +1,22 @@
+* zwei Modi
+	* Bewegung
+	* Eingabe
+* Menu mit Dateifeatures
+	* Speichern (+ Tastenkombi)
+	* Laden (+ Tastenkombi)
+	* Speichern unter
+	* Quit
+* Menu mit Extrafeatures / Optionen
+	* Zeilennummer ein/aus
+	* Schriftartwechsel
+	* Schriftgröße
+	* Letztes Dokument wieder öffnen
+* Steuerung:
+	* D-Pad: Buchstabenwahl oder Navigation
+	* OK -> neuer Buchstabe oder Modewechsel zu Eingabe
+	* CANCEL -> Modewechsel zu Bewegung oder Dateimenu
+	* OPPOSITE_OK -> Speichern
+	* OPPOSITE_CANCEL -> Laden
+	* L & R -> schnell scrollen
+	* SELECT: Extrafeatures
+	* START: Dateifeatures
