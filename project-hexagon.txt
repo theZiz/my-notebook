@@ -1,0 +1,10 @@
+Ein Spiel auf einer Welt, die aus Sechsecken und vielleicht auch Fünfecken
+(3D?) aufgebaut ist. Jedes Sechseck hat ein "Terrain" und vllt. ein Modell,
+um das Terrain zu verdeutlichen. Wäre ein guter Punkt Baumwachsalgorithmen
+auszuprobieren. Oder mal wieder was mit Wasser zu machen, animiertes Gras und
+dergleichen.
+So eine Welt schreit nach Rundenbasiertheit, was Multiplayer viel einfacher
+macht. Spielerisch wird es wohl ein klassisches "Armeen umherschieben" Spiel
+werden. Balancing könnte man über die Zeit machen, indem man schaut, was die
+Spieler so draus machen. Was fehlt sind noch Ideen, die der Spieleidee, was
+komplett neues verleihen...
